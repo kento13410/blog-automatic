@@ -2,7 +2,7 @@ import openai
 
 
 def getOpenAIResponse(prompt):
-    openai.api_key = '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'  # 発行したAPIキーを入力
+    openai.api_key = ''  # 発行したAPIキーを入力
 
     response = openai.Completion.create(
         model="text-davinci-003",
